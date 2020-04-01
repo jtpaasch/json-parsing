@@ -1,0 +1,14 @@
+cabal-version:       2.4
+
+name:                json-parsing
+version:             0.1.0.0
+build-type:          Simple
+extra-source-files:  README.md, Makefile
+
+executable fun-aeson1
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  other-modules:       App.Application, App.Array, App.Tuple, App.Complex,
+                       App.Object, App.Number, App.String
+  build-depends:       base >=4.12, filepath, bytestring, aeson
+  default-language:    Haskell2010

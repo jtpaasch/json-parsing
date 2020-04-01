@@ -1,0 +1,31 @@
+{
+	"personnel": {
+		"employees": [
+			{
+				"id": 148723,
+				"name": "Julio Alvarez",
+				"age": 48
+			},
+			{
+				"id": 146233,
+				"name": "Alice Beckenburgeton",
+				"age": 37
+			},
+			{
+				"id": 459272,
+				"name": "Shawna Carolson",
+				"age": 36
+			}
+		],
+		"managers": [
+			{
+				"id": 459272,
+				"department": "finance"
+			},
+			{
+				"id": 459272,
+				"department": "engineering"
+			}
+		]
+	}
+}
